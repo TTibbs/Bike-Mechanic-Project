@@ -416,10 +416,53 @@ header {
 }
 
 #shop-images {
-  width: 350px;
+  width: 320px;
   height: 190px;
   border-radius: .8rem;
   padding: .5rem 0;
+}
+
+.location-section {
+  color: rgb(249, 249, 249);
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  height: 600px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.map-container {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.description-box {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.location-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.location-text {
+  font-size: 1rem;
 }
 
 @keyframes moveHead {
@@ -453,16 +496,16 @@ header {
   }
 
   .logo {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     padding: 0 .8rem;
   }
 
   .link {
-    font-size: .9rem;
+    font-size: 1.1rem;
   }
 
   .intro-title {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     padding: .9rem 0;
   }
 
@@ -477,7 +520,7 @@ header {
   }
 
   .about-title {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     padding: .9rem 0;
   }
 
@@ -492,7 +535,7 @@ header {
 
   .services-title {
     padding: .9rem 0;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
 
   .grid-container {
@@ -513,7 +556,7 @@ header {
   }
 
   .service-title {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     padding: .5rem;
   }
 
@@ -524,10 +567,51 @@ header {
 
   .grid-picture-container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     align-items: center;
     justify-items: center;
+  }
+
+  .pictures-title {
+    font-size: 1.3rem;
+    padding: .7rem 0;
+  }
+
+  #shop-images {
+    width: 175px;
+    height: 125px;
+    border-radius: .8rem;
+    padding: .5rem 0;
+  }
+
+  .location-section {
+    height: auto;
+  }
+
+  .map-container {
+    min-width: auto;
+    margin-bottom: 20px;
+  }
+
+  .google-box {
+    width: 300px;
+    height: 300px;
+  }
+
+  .description-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .location-title {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+
+  .location-text {
+    font-size: 1rem;
   }
 }
 
@@ -544,12 +628,12 @@ header {
   }
 
   .logo {
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding: 0 .5rem;
   }
 
   .link {
-    font-size: .6rem;
+    font-size: .7rem;
   }
 
   .intro-container {
@@ -562,7 +646,7 @@ header {
   }
 
   .intro-title {
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding: .7rem 0;
   }
 
@@ -577,7 +661,7 @@ header {
   }
 
   .about-title {
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding: .7rem 0;
   }
 
@@ -592,7 +676,7 @@ header {
 
   .services-title {
     padding: .7rem 0;
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   .grid-container {
@@ -613,7 +697,7 @@ header {
   }
 
   .service-title {
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding: .3rem;
   }
 
@@ -640,7 +724,7 @@ header {
   .testimonials-title {
     color: rgb(246, 246, 246);
     padding: .5rem 0;
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   .blue-line {
@@ -658,14 +742,14 @@ header {
 
   .grid-picture-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 10px;
     align-items: center;
     justify-items: center;
   }
 
   .pictures-title {
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding: .7rem 0;
   }
 
@@ -674,5 +758,35 @@ header {
     height: 100px;
     border-radius: .8rem;
     padding: .5rem 0;
+  }
+
+  .location-section {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .map-container {
+    min-width: auto;
+    margin-bottom: 20px;
+  }
+
+  .google-box {
+    width: 250px;
+    height: 250px;
+  }
+
+  .description-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .location-title {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+
+  .location-text {
+    font-size: .8rem;
   }
 }

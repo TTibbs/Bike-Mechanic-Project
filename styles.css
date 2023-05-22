@@ -666,7 +666,7 @@ header {
 
   .pictures-title {
     font-size: 1rem;
-    padding: .7rem;
+    padding: .7rem 0;
   }
 
   #shop-images {

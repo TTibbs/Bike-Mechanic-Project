@@ -422,7 +422,7 @@ header {
   padding: .5rem 0;
 }
 
-.location-section {
+#location-section {
   color: rgb(249, 249, 249);
   display: flex;
   flex-direction: row-reverse;
@@ -463,6 +463,58 @@ header {
 
 .location-text {
   font-size: 1rem;
+}
+
+.contact-container {
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(248, 248, 248);
+  color: rgb(43, 43, 43);
+}
+
+.left-side {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+.contact-title {
+  font-size: 2rem;
+}
+
+.contact-text {
+  font-size: 1rem;
+}
+
+.right-side {
+  margin: auto;
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.right-side input,
+.right-side textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(40, 40, 40);
+}
+
+.right-side button {
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #5B7A8D;
+  border: none;
+  border-radius: .7rem;
+  color: rgb(248, 248, 248);
+  cursor: pointer;
+  width: fit-content;
+  margin: auto;
 }
 
 @keyframes moveHead {
@@ -585,7 +637,7 @@ header {
     padding: .5rem 0;
   }
 
-  .location-section {
+  #location-section {
     height: auto;
   }
 
@@ -760,7 +812,7 @@ header {
     padding: .5rem 0;
   }
 
-  .location-section {
+  #location-section {
     flex-direction: column-reverse;
     height: auto;
   }
@@ -788,5 +840,37 @@ header {
 
   .location-text {
     font-size: .8rem;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left-side {
+    padding: 10px;
+  }
+
+  .contact-title {
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+  }
+
+  .contact-text {
+    font-size: .8rem;
+    margin-bottom: .5rem;
+  }
+
+  .right-side {
+    padding: 10px;
+  }
+
+  .right-side input,
+  .right-side textarea {
+    width: 100%;
+  }
+
+  .right-side button {
+    width: 100%;
   }
 }

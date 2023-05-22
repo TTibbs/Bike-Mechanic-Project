@@ -658,7 +658,7 @@ header {
 
   .grid-picture-container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     align-items: center;
     justify-items: center;
@@ -669,8 +669,8 @@ header {
   }
 
   #shop-images {
-    width: 200px;
-    height: 125px;
+    width: 150px;
+    height: 100px;
     border-radius: .8rem;
     padding: .5rem 0;
   }

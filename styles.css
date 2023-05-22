@@ -493,7 +493,7 @@ header {
 @media screen and (max-width: 480px) {
   header {
     width: 100%;
-    height: 60px;
+    height: auto;
     margin: 0.6rem auto;
   }
 
@@ -508,6 +508,15 @@ header {
 
   .link {
     font-size: .6rem;
+  }
+
+  .intro-container {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
   }
 
   .intro-title {

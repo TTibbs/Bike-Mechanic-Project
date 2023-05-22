@@ -402,6 +402,8 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
+  width: 100%;
+  height: 200px;
 }
 
 #pictures {
@@ -415,7 +417,7 @@ header {
   font-size: 2rem;
 }
 
-#shop-images {
+.shop-images {
   width: 320px;
   height: 190px;
   border-radius: .8rem;
@@ -482,6 +484,7 @@ header {
 
 .contact-title {
   font-size: 2rem;
+  margin-bottom: 10px;
 }
 
 .contact-text {
@@ -502,6 +505,7 @@ header {
   width: 100%;
   padding: 10px;
   border: 1px solid rgb(40, 40, 40);
+  border-radius: .7rem;
 }
 
 .right-side button {
@@ -515,6 +519,60 @@ header {
   cursor: pointer;
   width: fit-content;
   margin: auto;
+}
+
+footer {
+  color: rgb(249, 249, 249);
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  text-align: center;
+}
+
+.footer-controls,
+.footer-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links {
+  padding: .1rem 0;
+}
+
+.footer-link {
+  color: rgb(249, 249, 249);
+}
+
+.footer-title,
+.footer-info h3 {
+  margin-bottom: 10px;
+}
+
+.footer-info p {
+  margin: 5px 0;
+}
+
+.footer-bottom {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.copyright {
+  margin-bottom: .5rem
+}
+
+.footer-icons {
+  padding: .8rem;
+}
+
+.fa-brands {
+  margin-right: .3rem;
 }
 
 @keyframes moveHead {
@@ -630,10 +688,7 @@ header {
     padding: .7rem 0;
   }
 
-  #shop-images {
-    width: 175px;
-    height: 125px;
-    border-radius: .8rem;
+  .shop-images {
     padding: .5rem 0;
   }
 
@@ -664,6 +719,42 @@ header {
 
   .location-text {
     font-size: 1rem;
+  }
+
+  .left-side {
+    padding: .95rem;
+  }
+
+  .contact-title {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+
+  .contact-text {
+    font-size: .9rem;
+  }
+
+  .right-side {
+    padding: .95rem;
+  }
+
+  .right-side button {
+    padding: .4rem .8rem;
+    font-size: .7rem;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-info {
+    margin-top: 20px;
+  }
+
+  .footer-bottom {
+    padding-top: 40px;
   }
 }
 
@@ -794,8 +885,8 @@ header {
 
   .grid-picture-container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 7px;
     align-items: center;
     justify-items: center;
   }
@@ -805,9 +896,9 @@ header {
     padding: .7rem 0;
   }
 
-  #shop-images {
-    width: 150px;
-    height: 100px;
+  .shop-images {
+    width: 130px;
+    height: 90px;
     border-radius: .8rem;
     padding: .5rem 0;
   }
